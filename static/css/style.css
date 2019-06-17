@@ -1,0 +1,48 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+:root {
+	--book-20: 'sharp_groteskbook_20';
+	--light-20: 'sharp_grotesklight_20';
+	--medium-20: 'sharp_groteskmedium_20';
+	--semibold-20: 'sharp_grotesksemibold_20';
+}
+.text-pink {
+	color: #F55EAD;
+}
+.text-violet-1 {
+	color: #5442AA;
+}
+.text-violet-2 {
+	color: #6C5ABF;
+}
+.book-20 {
+	font-family: 'sharp_groteskbook_20';
+}
+
+/* Navigation */
+.navbar-brand {
+	font-family: 'Playball', cursive;
+}
+.nav-link {
+	font-family: var(--book-20);
+}
+
+/* Hero */
+.hero {
+	background-image: url('../img/hero-bg.png');
+	height: 100vh;
+	background-size: cover;
+}
+h1 {
+	font-family: var(--semibold-20);
+}
+.description {
+	font-family: var(--light-20);
+}
+
+/* Footer */
+.footer {
+	background-image: url('../img/footer-bg.png');
+	min-height: 100vh;
+	background-size: cover;
+}
