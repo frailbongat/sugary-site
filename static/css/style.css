@@ -15,8 +15,26 @@
 .text-violet-2 {
 	color: #6C5ABF;
 }
+.text-violet-3 {
+	color: #12124C;
+}
+.text-violet-4 {
+	color: #5E58E8;
+}
+.text-violet-5 {
+	color: #191951;
+}
+.bg-violet {
+	background-color: #5E58E8 !important;
+}
 .book-20 {
 	font-family: 'sharp_groteskbook_20';
+}
+.medium-20 {
+	font-family: var(--medium-20);
+}
+.semibold-20 {
+	font-family: var(--semibold-20);
 }
 
 /* Navigation */
@@ -26,11 +44,17 @@
 .nav-link {
 	font-family: var(--book-20);
 }
+.pt-6 {
+	padding-top: 4rem !important;
+}
+.w-85 {
+	width: 85% !important;
+}
 
 /* Hero */
 .hero {
 	background-image: url('../img/hero-bg.png');
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 }
 h1 {
@@ -40,9 +64,51 @@ h1 {
 	font-family: var(--light-20);
 }
 
+/* First Carousel*/
+.first-carousel {
+	min-height: 100vh;
+}
+.slider-height {
+	height: 570px;
+}
+
+/* Second Carousel*/
+.second-carousel {
+	min-height: 100vh;
+}
+
 /* Footer */
 .footer {
 	background-image: url('../img/footer-bg.png');
-	min-height: 100vh;
 	background-size: cover;
+	min-height: 100vh;
+}
+.footer-h2 {
+	font-family: var(--semibold-20);
+}
+.footer-p {
+	font-family: var(--semibold-20);
+}
+.footer-ul {
+	line-height: 40px;
+}
+.footer-form, .footer-form:focus {
+	background: transparent;
+    border-color: transparent;
+    margin-bottom: 5px;
+}
+input::placeholder {
+	color: #fff !important;
+}
+.form-control {
+	margin-bottom: 0px;
+	border-bottom-color: #fff;
+}
+.form-control:focus {
+	margin-bottom: 0px;
+	border-bottom-color: #fff;
+	box-shadow: none;
+}
+.btn-outline-primary {
+	border-color: #6C5ABF;
 }
